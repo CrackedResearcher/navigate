@@ -11,7 +11,9 @@ export async function POST(request: NextRequest) {
         // await page.goto('https://www.google.com');
 
         try {
-            const actions = commands.actions || JSON.parse(commands).actions;
+            const actions = typeof commands === 'string' 
+                ? JSON.parse(commands).actions 
+                : commands.actions;
 
             if (actions.length > 0 && (actions[0].action === 'navigate' || actions[0].action === 'goto')) {
                 await page.goto(actions[0].url);
