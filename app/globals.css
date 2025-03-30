@@ -1,0 +1,18 @@
+@import "tailwindcss";
+
+:root {
+  --background: #dadada;
+  --foreground: #ededed;
+  --input-background: #1C1C1C;
+  --accent: #F97B5C;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: system-ui, -apple-system, sans-serif;
+}
+
+textarea {
+  font-family: inherit;
+}
