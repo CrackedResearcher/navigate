@@ -1,5 +1,8 @@
-Navigate - Command your browser with just words.
+Navigate 
 
+command any browser task with just your words 
+
+<img width="1439" alt="Screenshot 2025-03-30 at 8 52 52 PM" src="https://github.com/user-attachments/assets/a7eb579b-7fe9-4c52-b800-e8d6376bd346" />
 
 
 ```
